@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Github\Reinforcement-Learning-Based-Autonomous-Drone-Control-Simulation-and-Real-World-Testing\Autonomous_drone_RL_simulation\scr\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Reinforcement-Learning-Based-Autonomous-Drone-Control-Simulation-and-Real-World-Testing\Autonomous_drone_RL_simulation\scr\drone.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Reinforcement-Learning-Based-Autonomous-Drone-Control-Simulation-and-Real-World-Testing\Autonomous_drone_RL_simulation\scr\simu_controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Reinforcement-Learning-Based-Autonomous-Drone-Control-Simulation-and-Real-World-Testing\Autonomous_drone_RL_simulation\scr\enviro.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Github\Reinforcement-Learning-Based-Autonomous-Drone-Control-Simulation-and-Real-World-Testing\Autonomous_drone_RL_simulation\CMakelists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D6401A5D-4B47-3073-8D03-51BAA9024F99}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

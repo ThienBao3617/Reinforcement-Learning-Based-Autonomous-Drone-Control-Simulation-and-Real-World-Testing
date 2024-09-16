@@ -1,0 +1,23 @@
+cmake_minimum_required(VERSION 3.30.3)
+
+# Project name
+project(Autonomous_drone_RL_simulation)
+
+# Set C++ standard to C++17
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+# Add include directories
+include_directories(include)
+
+# Add source files
+add_executable(Autonomous_drone_RL_simulation
+    scr/main.cpp
+    scr/drone.cpp
+    scr/simu_controller.cpp
+    # scr/physics.cpp
+    scr/enviro.cpp
+)
+
+# Link libraries (add here later, e.g., Bullet, Torch)
+# target_link_libraries(Autonomous_drone_RL_simulation Bullet::BulletDynamics Bullet::BulletCollision)

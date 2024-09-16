@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Github\Reinforcement-Learning-Based-Autonomous-Drone-Control-Simulation-and-Real-World-Testing\Autonomous_drone_RL_simulation\build\CMakeFiles\ab31388cefadbc6223786188c6c21b78\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F5616328-C773-3818-B494-ADDEAD4E263F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
