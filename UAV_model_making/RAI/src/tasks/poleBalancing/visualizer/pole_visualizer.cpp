@@ -1,5 +1,5 @@
 
-#include "rai/tasks/poleBalancing/visualizer/Pole_Visualizer.hpp"
+#include "include/rai/tasks/poleBalancing/visualizer/pole_visualizer.hpp"
 
 namespace rai {
 namespace Vis {
