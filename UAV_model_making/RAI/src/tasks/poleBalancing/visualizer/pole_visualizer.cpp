@@ -15,7 +15,7 @@ Pole_Visualizer::Pole_Visualizer() :
   Pole.setColor({0.3, 0.3, 0.3});
   origin.setColor({0.8, 0.2, 0.2});
   arrow.setColor({0, 0, 1});
-  arrow.setTransparency(0.5);
+  arrow.setTransparency(    0.5);
   origin.setPos({0,0,0});
 
   defaultPose_.setIdentity();
