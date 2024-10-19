@@ -6,7 +6,7 @@ Example
 -------
 To run the script, type in a terminal:
 
-    $ python test_singleagent.py --exp ./results/save-<env>-<algo>-<obs>-<act>-<time_date> --time <seconds>
+    $ python test-single-agent.py --exp ./results/save-<env>-<algo>-<obs>-<act>-<time_date> --time <seconds>
 
 """
 
@@ -29,13 +29,13 @@ from stable_baselines3.sac.policies import SACPolicy as sacMlpPolicy
 from stable_baselines3.td3 import MlpPolicy as td3ddpgMlpPolicy
 from stable_baselines3.common.evaluation import evaluate_policy
 
-from gym_pybullet_drones.utils.utils import sync
-from gym_pybullet_drones.utils.Logger import Logger
-from gym_pybullet_drones.envs.single_agent_rl.MoveAviary import MoveAviary
-from gym_pybullet_drones.envs.single_agent_rl.HoverAviary import HoverAviary
-from gym_pybullet_drones.envs.single_agent_rl.BaseSingleAgentAviary import ActionType, ObservationType
+from gym-bullet-drone.utils.utils import sync
+from gym-bullet-drone.utils.logger import logger
+from gym-bullet-drone.envs.single_agent-rl.base-single-agent import ActionType, ObservationType
+from gym-bullet-drone.envs.single_agent-rl.moving import moving
+from gym-bullet-drone.envs.single_agent-rl.hovering import hovering
 
-import shared_constants
+import shared-constant
 
 STARTING_POINT = np.array([[0, 0, 1.2]])
 

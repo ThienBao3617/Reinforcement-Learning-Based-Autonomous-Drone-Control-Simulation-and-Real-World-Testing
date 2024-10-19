@@ -6,7 +6,7 @@ Example
 -------
 To run the script, type in a terminal:
 
-    $ python singleagent.py --env <env> --algo <alg> --obs <ObservationType> --act <ActionType> --cpu <cpu_num>
+    $ python single-agent.py --env <env> --algo <alg> --obs <ObservationType> --act <ActionType> --cpu <cpu_num>
 
 Notes
 -----
@@ -42,11 +42,11 @@ from stable_baselines3.sac.policies import SACPolicy as sacMlpPolicy
 from stable_baselines3.td3 import MlpPolicy as td3ddpgMlpPolicy
 from stable_baselines3.common.callbacks import CheckpointCallback, EvalCallback, StopTrainingOnRewardThreshold
 
-from gym_pybullet_drones.envs.single_agent_rl.MoveAviary import MoveAviary
-from gym_pybullet_drones.envs.single_agent_rl.HoverAviary import HoverAviary
-from gym_pybullet_drones.envs.single_agent_rl.BaseSingleAgentAviary import ActionType, ObservationType
+from gym-bullet-drone.envs.single_agent-rl.base-single-agent import ActionType, ObservationType
+from gym-bullet-drone.envs.single_agent-rl.moving import moving
+from gym-bullet-drone.envs.single_agent-rl.hovering import hovering
 
-import shared_constants
+import shared-constant
 
 EPISODE_REWARD_THRESHOLD = -0  # Upperbound: rewards are always negative, but non-zero
 """float: Reward threshold to halt the script."""

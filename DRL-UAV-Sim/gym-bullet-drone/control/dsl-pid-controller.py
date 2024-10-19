@@ -6,7 +6,7 @@ from enum import Enum
 import xml.etree.ElementTree as etxml
 from scipy.spatial.transform import Rotation
 
-from gym_pybullet_drones.envs.BaseAviary import DroneModel, BaseAviary
+from gym-bullet-drone.envs.basing import DroneModel, basing
 
 class BaseControl(object):
     """Base class for control.
