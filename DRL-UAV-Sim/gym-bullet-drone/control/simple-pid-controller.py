@@ -215,3 +215,12 @@ class BaseControl(object):
         elif parameter_name == 'collision_z_offset':
             COLLISION_SHAPE_OFFSETS = [float(s) for s in URDF_TREE[1][2][0].attrib['xyz'].split(' ')]
             return COLLISION_SHAPE_OFFSETS[2]
+        
+controller.setPIDCoefficients(
+    p_coeff_pos=np.array([1.0, 1.0, 1.0]),  # Position control P gain
+    i_coeff_pos=np.array([0.1, 0.1, 0.1]),  # Position control I gain
+    d_coeff_pos=np.array([0.05, 0.05, 0.05]),  # Position control D gain
+    p_coeff_att=np.array([2.0, 2.0, 2.0]),  # Attitude control P gain
+    i_coeff_att=np.array([0.1, 0.1, 0.1]),  # Attitude control I gain
+    d_coeff_att=np.array([0.05, 0.05, 0.05])  # Attitude control D gain
+)
